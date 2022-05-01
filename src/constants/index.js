@@ -1,3 +1,7 @@
+
+const TokensList = require("./tokens.json");
+
+
 export const FACTORY_ADDRESS = '0x65b3cc7a7cb167221266fc93884717de2dbd074e'
 
 export const BUNDLE_ID = '1'
@@ -12,7 +16,7 @@ export const timeframeOptions = {
 
 // token list urls to fetch tokens from - use for warnings on tokens and pairs
 export const SUPPORTED_LIST_URLS__NO_ENS = [
-  'https://raw.githubusercontent.com/BitBlocksProject/bbkfi-router-frontend/main/src/constants/token/pancakeswap.json?token=GHSAT0AAAAAABT7VNP227NHNCPCZYKTKGL4YTOV5DQ',
+  TokensList,
 ]
 
 // hide from overview list
