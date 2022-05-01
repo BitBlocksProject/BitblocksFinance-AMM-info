@@ -78,7 +78,7 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
     path = 'https://exchange.bitblocks.finance/images/coins/wBBK.png'
   }
 
-  if (address?.toLowerCase() === '0xE5599A12a8fF06A690ffD2790C54A37c74A43208') {
+  if (address?.toLowerCase() === '0xe5599a12a8ff06a690ffd2790c54a37c74a43208') {
     path = 'https://exchange.bitblocks.finance/images/egg/Bfire.png'
   }
   
