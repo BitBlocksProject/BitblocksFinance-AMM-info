@@ -1,6 +1,6 @@
-# Pancake History
+# BitBlocksFinance History
 
-Check it out live: [https://pancakeswap.info/](https://pancakeswap.info/).
+Check it out live: [https://info.bitblocks.finance/](https://info.bitblocks.finance/).
 
 ### To Start Development
 
