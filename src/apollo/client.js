@@ -4,7 +4,7 @@ import { HttpLink } from 'apollo-link-http'
 
 export const client = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/bitblocksproject/bbkexchangedex',
+    uri: 'https://api.thegraph.com/subgraphs/name/bitblocksproject/polygonbbkdex',
   }),
   cache: new InMemoryCache(),
   shouldBatch: true,
@@ -20,7 +20,7 @@ export const healthClient = new ApolloClient({
 
 export const blockClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/bitblocksproject/refactorblocks',
+    uri: 'https://thegraph.com/hosted-service/subgraph/bitblocksproject/polygonblocks',
   }),
   cache: new InMemoryCache(),
 })
