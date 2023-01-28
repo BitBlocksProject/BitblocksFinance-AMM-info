@@ -2,7 +2,7 @@
 const TokensList = require("./tokens.json");
 
 
-export const FACTORY_ADDRESS = '0x65b3cc7a7cb167221266fc93884717de2dbd074e'
+export const FACTORY_ADDRESS = '0xFF89048FC50F848cf6B99F3629c16Ed6332785a5'
 
 export const BUNDLE_ID = '1'
 
