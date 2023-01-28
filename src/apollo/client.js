@@ -20,7 +20,7 @@ export const healthClient = new ApolloClient({
 
 export const blockClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://thegraph.com/hosted-service/subgraph/bitblocksproject/polygonblocks',
+    uri: 'https://api.thegraph.com/subgraphs/name/bitblocksproject/polygonblocks',
   }),
   cache: new InMemoryCache(),
 })
