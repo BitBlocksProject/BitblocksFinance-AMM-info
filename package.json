@@ -1,7 +1,7 @@
 {
   "name": "@pancakeswap/info",
   "private": true,
-  "homepage": "https://info.bitblocks.finance",
+  "homepage": "https://polygon-info.bitblocks.finance/",
   "dependencies": {
     "@popperjs/core": "^2.4.2",
     "@reach/portal": "^0.10.3",
