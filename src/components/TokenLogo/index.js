@@ -70,16 +70,16 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
     )
   }
 
-  let path = `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/${isAddress(
+  let path = `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/assets/${isAddress(
     address
   )}/logo.png`
 
-  if (address?.toLowerCase() === '0x9045b0eda6b6a556cf9b3d81c2db47411714f847') {
+  if (address?.toLowerCase() === '0x2C8a46eF99Cb64928eB3Dd50A925327e02296F63') {
     path = 'https://exchange.bitblocks.finance/images/coins/wBBK.png'
   }
 
-  if (address?.toLowerCase() === '0xe5599a12a8ff06a690ffd2790c54a37c74a43208') {
-    path = 'https://exchange.bitblocks.finance/images/egg/Bfire.png'
+  if (address?.toLowerCase() === '0xCb9C119d5520A7165F234759578E01F095Aa33C1') {
+    path = 'https://exchange.bitblocks.finance/images/coins/BBKFI.png'
   }
   
 
