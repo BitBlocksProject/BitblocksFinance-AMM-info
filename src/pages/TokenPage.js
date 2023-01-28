@@ -385,7 +385,7 @@ function TokenPage({ address, history }) {
                   </Column>
                   <ButtonLight color={backgroundColor}>
                     <Link color={backgroundColor} external href={'https://polygonscan.com/address/' + address}>
-                      View on BscScan ↗
+                      View on PolygonScan ↗
                     </Link>
                   </ButtonLight>
                 </TokenDetailsLayout>
