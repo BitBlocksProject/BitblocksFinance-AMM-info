@@ -309,10 +309,10 @@ export const setThemeColor = (theme) => document.documentElement.style.setProper
 export const Big = (number) => new BigNumber(number)
 
 export const urls = {
-  showTransaction: (tx) => `https://bscscan.com/tx/${tx}/`,
-  showAddress: (address) => `https://bscscan.com/address/${address}/`,
-  showToken: (address) => `https://bscscan.com/token/${address}/`,
-  showBlock: (block) => `https://bscscan.com/block/${block}/`,
+  showTransaction: (tx) => `https://polygonscan.com/tx/${tx}/`,
+  showAddress: (address) => `https://polygonscan.com/address/${address}/`,
+  showToken: (address) => `https://polygonscan.com/token/${address}/`,
+  showBlock: (block) => `https://polygonscan.com/block/${block}/`,
 }
 
 export const formatTime = (unix) => {
